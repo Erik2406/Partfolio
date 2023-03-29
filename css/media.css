@@ -1,0 +1,17 @@
+@media screen and (min-width:300px) and (max-width:1240) {
+    body {
+        height: unset;
+        padding: 30px 0;
+    }
+    .header {
+        flex-direction: column;       
+    }
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+    }   
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
